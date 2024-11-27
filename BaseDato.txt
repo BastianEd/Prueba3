@@ -1,0 +1,1 @@
+CREATE TABLE `automovil`.`cliente` (`rut` INT NOT NULL AUTO_INCREMENT , `nombre` VARCHAR(60) NOT NULL , `numero_contacto` INT NOT NULL , `direccion` VARCHAR(60) NOT NULL , `tipo_cliente` VARCHAR(60) NOT NULL , PRIMARY KEY (`rut`)) ENGINE = InnoDB;
